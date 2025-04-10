@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object fit and object-cover</title>
+    <style>
+        .container {
+            height: 634px;
+            width: 688px;
+            border: 2px solid black;
+           background-position: center center;
+         background-repeat: no-repeat;
+         background-clip: border-box;
+         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKrA0er90LkB21SUccqN8xwMOiHYyqMGEwwSgMg6rcw&s");
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            /* object-fit: contain; */
+            object-fit: cover;
+            /* object-position: bottom left; */
+            /* object-fit: scale-down; */
+            object-position: 50% 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKrA0er90LkB21SUccqN8xwMOiHYyqMGEwwSgMg6rcw&s" alt="photo"> -->
+    </div>
+</body>
+
+</html>

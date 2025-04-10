@@ -1,0 +1,10 @@
+.foo{
+    background-color: aqua;
+    padding: 23px;
+}
+.foo{
+    position: absolute;
+    bottom: 0;
+    padding: auto;
+    width: 100%;
+}

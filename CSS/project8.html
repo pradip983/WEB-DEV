@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project8</title>
+<style>
+    .container{
+        width: 90vw;
+        height: 65vh;
+        background-color: aqua;
+        position: relative;
+    }
+    .box{
+        width: 8vw;
+        height: 11vh;
+        background-color: blue;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animationX 7s linear infinite , animationY 1s ease-out infinite alternate;
+    }
+    @keyframes animationX {
+        from{
+           left: 0;
+        }
+        to{
+           left: 100%;
+        }
+    }
+    @keyframes animationY {
+        from{
+ bottom: 0;
+        }
+        to{
+bottom: 100%;
+        }
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
